@@ -1,3 +1,16 @@
+$background-dark: #242524;
+
+$font-weight: (
+    "fina": 100,
+    "regular": 500,
+    "grossa": 900,
+
+);
+
 body {
-    background-color: #242524;
+    font-weight: map-get($font-weight, fina);    
+    background-color: $background-dark;
+    h1 {
+    font-weight: map-get($font-weight, fina);
+    }
 }

@@ -1,4 +1,9 @@
 body {
+  font-weight: 100;
   background-color: #242524;
+}
+
+body h1 {
+  font-weight: 100;
 }
 /*# sourceMappingURL=main.css.map */
